@@ -1,0 +1,130 @@
+body{
+  text-align: center;
+  margin: 0;
+}
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+  font-family: 'Karla', sans-serif;
+
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+.top-description{
+  color: #66BFBF;
+  font-weight: normal;
+}
+h2{
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+h3{
+  color:  #11999E;
+}
+a{
+  color:  #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin-right: 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+p{
+  color: #40514E;
+  line-height: 2;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 10px;
+  width: 6%;
+  margin: 100px auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+  text-align: left;
+}
+.mypic{
+  width:250px;
+  height: 250px;
+}
+.intro{
+  width: 25%;
+  margin: auto;
+
+}
+.middle-container{
+  margin: 100px 0;
+
+}
+.bottom-container{
+  background-color: #66BFBF;
+  margin: 30px auto 0 auto;
+  padding-top: 20px;
+
+
+}
+.bottom-cloud{
+  position: absolute;
+  bottom:300px;
+  left: 400px;
+
+}
+.top-cloud{
+  position:absolute;
+  right: 400px;
+  top:50px;
+}
+.mypic1{
+  float: left;
+  width: 35%;
+  margin-right: 30px;
+}
+.mypic2{
+  float: right;
+  width: 40%;
+  margin-left: 30px;
+}
+
+.last-phara{
+  color: #EAF6F6;
+  padding: 20px;
+  margin: 0;
+
+}
+.btn {
+	box-shadow: 0 10px 7px -10px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
